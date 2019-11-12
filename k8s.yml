@@ -24,5 +24,4 @@ spec:
     volumeMounts:
     - name: ssh-key
       readOnly: true
-      mountPath: "/root/.ssh/id_ed25519"
-
+      mountPath: "/private-keys"
