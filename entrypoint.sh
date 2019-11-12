@@ -1,5 +1,8 @@
 #!/bin/sh
+
+cp /private-keys/* ~/.ssh/
 chmod 600 ~/.ssh/*
+
 mkdir /tmp/.X11-unix/
 
 ssh -fNT -L /tmp/.X11-unix/X0:/tmp/.X11-unix/X0 \
