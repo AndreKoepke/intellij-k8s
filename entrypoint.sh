@@ -1,5 +1,6 @@
 #!/bin/sh
 
+mkdir ~/.ssh/
 cp /private-keys/* ~/.ssh/
 chmod 600 ~/.ssh/*
 
