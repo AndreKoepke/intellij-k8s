@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ssh:
+    build: .
+    environment:
+    - USER={SSH-USER}
+    - HOST={SSH-HOST}
+    - PORT={SSH-PORT}
